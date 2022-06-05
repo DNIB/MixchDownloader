@@ -9,3 +9,5 @@ MixchDownloader.spec
 
 /downloads
 /venv
+
+*.pyc
