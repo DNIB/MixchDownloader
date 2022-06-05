@@ -1,6 +1,5 @@
-from Services import DownloadService
+from services.DownloadService import DownloadService
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     channel_url = input("Please enter the url: ")
 
@@ -10,8 +9,7 @@ if __name__ == '__main__':
         exit(-1)
 
     channel_id = int(list(filter(lambda fragment: fragment.isnumeric(), url_fragments))[0])
+    print("Downloading channel id: " + str(channel_id))
 
     downloadService = DownloadService()
     downloadService.downloadMixchStream(channel_id)
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/

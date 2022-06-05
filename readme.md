@@ -1,3 +1,8 @@
+## 2022/06/06 更新 1.0.1-beta
+- Release: [1.0.1-beta](https://drive.google.com/file/d/1dxEhlMpN9E3x0hqGRyrHkBGw6zEcUYTk/view?usp=sharing)
+- 新增自動合併分檔功能
+    - 依賴 ffmpeg，故須先在電腦上安裝，才可自動合併檔案
+
 ## 2022/06/05 初始版本 1.0.0
 - Release: [1.0.0](https://drive.google.com/file/d/1ZfC5nfIGnw1K_6VluW5O033MRHYKgtLv/view?usp=sharing)
 - 新增基本使用介面
