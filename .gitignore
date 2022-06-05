@@ -1,0 +1,11 @@
+# Files from IDE
+/.idea
+/__pycache__
+
+# Files from pyinstaller
+/build
+/dist
+MixchDownloader.spec
+
+/downloads
+/venv
