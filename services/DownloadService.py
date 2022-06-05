@@ -35,4 +35,4 @@ class DownloadService:
 
         print("Download finish")
         if stream_map.isNotEmpty():
-            self.file_writer.saveStreamMap(stream_map)
+            self.file_writer.saveStream(stream_map)
